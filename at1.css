@@ -92,4 +92,45 @@ h1{
     display: flex;
     justify-self: center;
     align-self: center;
+
+}
+
+@media(max-width: 320px){
+    h1{
+    transform: translateY(14vh);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-weight: 500px;
+    font-size: 30px;
+}
+h4{
+    font-size: 10px;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+
+}
+
+@media(max-width: 500px){
+    h1{
+    transform: translateY(14vh);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    font-weight: 500px;
+    font-size: 30px;
+}
+h4{
+    font-size: 10px;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+
 }
