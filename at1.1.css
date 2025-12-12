@@ -84,7 +84,7 @@ button{
 a{
     text-decoration: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 350px) {
     .pano-nako{
         display: flex;
         flex-direction:column-reverse;
@@ -135,5 +135,6 @@ background: linear-gradient(147deg, rgba(130, 14, 14, 0.37) 44%, rgba(2, 0, 38, 
     h4{
         font-size: .6em;
     }
+
 
 }
